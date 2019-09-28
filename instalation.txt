@@ -1,0 +1,18 @@
+Download mysql from :
+https://dev.mysql.com/doc/mysql-osx-excerpt/5.7/en/osx-installation-pkg.html
+
+
+1. root password : 123456789
+
+System Preferences -> MySql -> start/stop
+
+Start :
+sudo /usr/local/mysql/support-files/mysql.server start
+Stop :
+sudo /usr/local/mysql/support-files/mysql.server stop
+Restart:
+sudo /usr/local/mysql/support-files/mysql.server restart
+
+
+Set path :
+export PATH=${PATH}:/usr/local/mysql/bin/
